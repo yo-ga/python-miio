@@ -53,3 +53,6 @@ class TestDeviceInfo(TestCase):
         t = DeviceInfo(data)
         self.assertIsNone(t.firmware_version)
         self.assertIsNone(t.hardware_version)
+
+class TestDevice(TestCase):
+    pass
